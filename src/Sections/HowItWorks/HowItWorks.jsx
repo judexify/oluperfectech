@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import styles from "./HowItWorks.module.css";
 import workImage from "../../assets/ontheroofworking.jpg";
-import blurImage from "../../assets/ontheroofworking-blur.jpg";
+import blurImage from "../../assets/Ontheroofworking-blur.jpg";
 
 const serviceProcesses = {
   "Solar Inverter Installation": [
