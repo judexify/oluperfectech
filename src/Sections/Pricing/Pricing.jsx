@@ -1,6 +1,5 @@
 import styles from "./Pricing.module.css";
 import PlanCard from "../../Components/PlanCard/PlanCard";
-import { Link } from "react-router-dom";
 import { useState } from "react";
 import Form from "../../Components/Form/Form";
 

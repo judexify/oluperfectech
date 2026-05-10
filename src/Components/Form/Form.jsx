@@ -1,5 +1,5 @@
 import { useState } from "react";
-import styles from "./form.module.css";
+import styles from "./Form.module.css";
 import { FaTimes } from "react-icons/fa";
 console.log(import.meta.env);
 
