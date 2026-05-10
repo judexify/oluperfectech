@@ -1,0 +1,79 @@
+.hero {
+  height: 100vh;
+}
+
+.heroSection {
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: background-image 0.5s ease;
+  position: relative;
+  padding: 1.2rem 4.8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  z-index: 1;
+}
+
+.heroSection::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to top,
+    rgba(44, 62, 80, 0.85) 0%,
+    rgba(44, 62, 80, 0.2) 60%,
+    transparent 100%
+  );
+  z-index: 0;
+}
+
+.heroItems {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  z-index: 2;
+  padding: 4rem 2rem;
+  max-width: 80rem;
+  margin: 0 auto;
+}
+
+.heroTitle {
+  font-size: 5.2rem;
+  font-weight: 700;
+  color: #ffffff;
+  line-height: 1.2;
+  margin-bottom: 2.4rem;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.4);
+}
+
+.highlight {
+  color: #f4d03f;
+}
+
+.heroDescription {
+  font-size: 2rem;
+  color: #ffffff;
+  opacity: 0.95;
+  line-height: 1.6;
+  margin-bottom: 3.6rem;
+}
+
+.buttons {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 4rem;
+}
+
+.motto {
+  font-family: "Dancing Script", cursive;
+  font-size: 1.6rem;
+  color: #f1c40f;
+  word-spacing: 5px;
+}

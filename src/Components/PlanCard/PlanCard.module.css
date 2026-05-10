@@ -1,0 +1,243 @@
+.card {
+  background-color: #ffffff;
+  border: 2px solid #e8e8e8;
+  border-radius: 16px;
+  padding: 2.4rem 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.12);
+}
+
+.popular {
+  border-color: #f4d03f;
+  border-width: 3px;
+}
+
+.enterprise {
+  background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+  border-color: #f4d03f;
+  color: #ffffff;
+}
+
+.popularBadge {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  background: linear-gradient(135deg, #f1c40f, #f4d03f);
+  color: #2c3e50;
+  padding: 0.4rem 1.6rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  border-radius: 20px;
+  white-space: nowrap;
+}
+
+.cardHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.planName {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #2c3e50;
+}
+
+.enterprise .planName {
+  color: #ffffff;
+}
+
+.badge {
+  background-color: #fff9e6;
+  color: #f1c40f;
+  padding: 0.4rem 1rem;
+  border-radius: 20px;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.enterprise .badge {
+  background-color: rgba(244, 208, 63, 0.2);
+  color: #f4d03f;
+}
+
+.kvaBox {
+  background: linear-gradient(135deg, #fffbf0, #fff9e6);
+  border-radius: 12px;
+  padding: 2rem;
+  text-align: center;
+}
+
+.enterprise .kvaBox {
+  background: linear-gradient(
+    135deg,
+    rgba(244, 208, 63, 0.15),
+    rgba(241, 196, 15, 0.1)
+  );
+}
+
+.kva {
+  font-size: 3.2rem;
+  font-weight: 700;
+  color: #f1c40f;
+  margin: 0;
+}
+
+.system {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #5a6c7d;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin: 0;
+}
+
+.enterprise .system {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.includes {
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  padding: 1.6rem;
+}
+
+.enterprise .includes {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.sectionLabel {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #34495e;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 1.2rem;
+}
+
+.enterprise .sectionLabel {
+  color: #ffffff;
+}
+
+.includesList,
+.powersList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.includesItem {
+  font-size: 1.3rem;
+  color: #5a6c7d;
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.enterprise .includesItem {
+  color: #ffffff;
+}
+
+.warranty {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  background: linear-gradient(135deg, #27ae60, #2ecc71);
+  color: #ffffff;
+  padding: 1rem 1.6rem;
+  border-radius: 8px;
+  font-size: 1.3rem;
+  font-weight: 600;
+  justify-content: center;
+}
+
+.powers {
+  flex: 1;
+}
+
+.powersItem {
+  font-size: 1.3rem;
+  color: #5a6c7d;
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  padding: 0.4rem 0;
+}
+
+.enterprise .powersItem {
+  color: #ffffff;
+}
+
+.checkIcon {
+  color: #27ae60;
+  flex-shrink: 0;
+}
+
+.enterprise .checkIcon {
+  color: #f4d03f;
+}
+
+.footer {
+  text-align: center;
+  border-top: 2px solid #f8f9fa;
+  padding-top: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.enterprise .footer {
+  border-top-color: rgba(244, 208, 63, 0.2);
+}
+
+.price {
+  font-size: 3.2rem;
+  font-weight: 700;
+  color: #2c3e50;
+  letter-spacing: 2px;
+  margin: 0;
+}
+
+.enterprise .price {
+  color: #f4d03f;
+}
+
+.priceLabel {
+  font-size: 1.1rem;
+  color: #95a5a6;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.btn {
+  background-color: #f4d03f;
+  color: #2c3e50;
+  padding: 1.4rem 2.4rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  border-radius: 8px;
+  border: 2px solid #e8b923;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 100%;
+}
+
+.btn:hover {
+  background-color: #e8b923;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(244, 208, 63, 0.3);
+}
