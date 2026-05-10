@@ -1,6 +1,6 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./index.css";
-import Faq from "./Sections/FAQ/Faq";
+import Faq from "../src/Sections/FAQ/Faq";
 import Footer from "./Sections/Footer/Footer";
 import Hero from "./Sections/Hero/Hero";
 import HowItWorks from "./Sections/HowItWorks/HowItWorks";
